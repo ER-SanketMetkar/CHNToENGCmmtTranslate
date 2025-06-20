@@ -1,6 +1,6 @@
 ﻿namespace CHNToENGCmmtTranslate
 {
-    partial class Form1
+    partial class TranslateToEng
     {
         /// <summary>
         /// Required designer variable.
@@ -114,7 +114,7 @@
             this.label3.Text = "*This convert from any langugae commments (e.g. // 添加控件到表单中 ) to English Comments" +
     " in your select folder files.";
             // 
-            // Form1
+            // TranslateToEng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -127,8 +127,8 @@
             this.Controls.Add(this.btnselectfolderpath);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btntnslate);
-            this.Name = "Form1";
-            this.Text = "TranslateToENG";
+            this.Name = "TranslateToEng";
+            this.Text = "Translate To English";
             this.ResumeLayout(false);
             this.PerformLayout();
 

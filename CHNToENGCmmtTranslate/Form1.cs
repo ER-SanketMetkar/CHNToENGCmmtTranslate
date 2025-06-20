@@ -13,9 +13,9 @@ using System.Windows.Forms;
 
 namespace CHNToENGCmmtTranslate
 {
-    public partial class Form1 : Form
+    public partial class TranslateToEng : Form
     {
-        public Form1()
+        public TranslateToEng()
         {
             InitializeComponent();
         }
