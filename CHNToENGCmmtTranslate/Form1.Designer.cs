@@ -55,9 +55,9 @@
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(310, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(209, 20);
+            this.label1.Size = new System.Drawing.Size(237, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "From any Language To English ";
+            this.label1.Text = "From Chinese Language To English ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -109,10 +109,11 @@
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(8, 204);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(668, 16);
+            this.label3.Size = new System.Drawing.Size(692, 16);
             this.label3.TabIndex = 1;
-            this.label3.Text = "*This convert from any langugae commments (e.g. // 添加控件到表单中 ) to English Comments" +
-    " in your select folder files.";
+            this.label3.Text = "*This convert from Chinese langugae commments (e.g. // 添加控件到表单中 ) to English Comm" +
+    "ents in your select folder files.";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // TranslateToEng
             // 
