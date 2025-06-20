@@ -85,7 +85,8 @@ namespace CHNToENGCmmtTranslate
         {
             try
             {
-                string url = $"https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q={Uri.EscapeDataString(text)}";
+                //string url = $"https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q={Uri.EscapeDataString(text)}";
+                string url = $"https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q={Uri.EscapeDataString(originalText)}";
 
                 using (WebClient wc = new WebClient())
                 {
